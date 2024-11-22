@@ -1,0 +1,38 @@
+.main-links {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.links-cont {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 50px;
+}
+.conts {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+.icons {
+  height: 40px;
+  width: 40px;
+}
+#yt, #dd {
+  height: 45px;
+  width: 45px;
+}
+footer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  font-size: 20px;
+}
+
+footer strong {
+  font-size: 24px;
+}
