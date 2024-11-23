@@ -7,6 +7,13 @@
   height: 100%;
   margin-top: 20px;
 }
+.nav-bar{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: end;
+  align-items: end;
+  width: 80vw;
+}
 .main-cont {
   display: flex;
   flex-flow: column wrap;
@@ -43,4 +50,14 @@ h1 {
 }
 strong {
   color: red;
+}
+button {
+  height: 25px;
+  border: 0;
+  padding: 0 10px;
+  background-color: red;
+  font-weight: 600;
+  font-size: 17px;
+  border-radius: 4px;
+  cursor: pointer;
 }
