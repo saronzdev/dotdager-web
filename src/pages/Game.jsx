@@ -3,7 +3,7 @@ import '../styles/Game.css'
 
 function Game() {
   return (
-    <iframe title='Lumber Jack' src='https://tbot.xyz/lumber' frameborder='0'></iframe>
+    <iframe src='https://tbot.xyz/lumber' frameborder='0'></iframe>
   )
 }
 
