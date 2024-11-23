@@ -12,9 +12,6 @@ function Links() {
     <div className='main-links'>
       <div className='links-cont'>
         <div className='conts'>
-          <a href='https://www.twitch.tv/dagerxiv' target='_blank'><img className='icons' src={tw} alt='Twitch icon'/></a>
-        </div>
-        <div className='conts'>
           <a href='https://www.youtube.com/@DotDager' target='blank'><img className='icons' id='yt' src={yt} alt='YouTube icon'/></a>
         </div>
         <div className='conts'>
@@ -28,6 +25,9 @@ function Links() {
         </div>
         <div className='conts'>
           <a href='https://discord.gg/4NFk6TamAB' target='_blank'><img className='icons' id='dd' src={dd} alt='Discord icon'/></a>
+        </div>
+        <div className='conts'>
+          <a href='https://www.twitch.tv/dagerxiv' target='_blank'><img className='icons' id='tw' src={tw} alt='Twitch icon'/></a>
         </div>
       </div>
       <footer>

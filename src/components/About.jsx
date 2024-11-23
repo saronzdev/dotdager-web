@@ -9,7 +9,7 @@ function About() {
       <div className='main-cont'>
         <div className='left-div'>
           <div className='text-conteiner'>
-            <h1>Hola soy, <strong>Dot Dager.</strong></h1>
+            <h1>Hola soy <strong>Dot Dager.</strong></h1>
             <p className='about-him'>Programador Senior Full-Stack, creador de contenido de calidad en YouTube, "contador serial de chistes de mierda", amante de la música (en especial las guitarras) y los gatos, además de tener una rara obesesión con los pepinos.</p>
           </div>
         </div>
