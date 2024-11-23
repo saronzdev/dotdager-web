@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/About.css'
 import dagerPic from '../assets/pfp.png'
-import {Link} from 'wouter'
+import {Link} from 'react-router-dom'
 
 function About() {
   return (
@@ -14,7 +14,7 @@ function About() {
           </div>
         </div>
         <div className='right-div'>
-          <Link href='/game'>
+          <Link to='/game'>
             <img className='dager-pic' src={dagerPic} alt="Picture where is Dot Dager"/>
           </Link>
         </div>

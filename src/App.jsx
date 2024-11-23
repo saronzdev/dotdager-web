@@ -1,22 +1,23 @@
 import React from 'react'
-import {Route, Switch} from 'wouter'
+import {createHashRouter, RouterProvider} from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import Game from './pages/Game.jsx'
 import './styles/App.css'
 
+const router = createHashRouter([
+  {
+    path: '/',
+    element: <Home/>
+  },
+  {
+    path: '/game',
+    element: <Game/>
+  }
+])
+
 function App() {
   return (
-    <div className='main-cont'>
-      <Switch>
-        <Route path={'/'} component={Home}/>
-        <Route path={'/game'} component={Game}/>
-        <Route>
-          <div className='not-found'>
-            <span>404 Not Found</span>
-          </div>
-        </Route>
-      </Switch>
-    </div>
+    <RouterProvider router={router} />
   )
 }
 
